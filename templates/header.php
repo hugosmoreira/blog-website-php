@@ -17,5 +17,13 @@
 </head>
 <body>
     <header>
-        Header
+        <a href="<?= $BASE_URL ?>" id="logo" >
+            <img src="<?= $BASE_URL ?>/img/logoHora.svg" alt="logo">
+        </a>
+        <nav>
+            <ul id="navbar">>
+                <li><a href="<?= $BASE_URL ?>">Home</a></li>
+                <li><a href="<?= $BASE_URL ?>contato.php">Contato</a></li>
+                <li><a href="<?= $BASE_URL ?>/sobre">Sobre</a></li>
+            </ul>
     </header>

@@ -8,7 +8,7 @@
 
     <main>
     <div id="title-container">
-      <h1>Blog Codar</h1>
+      <h1>Blog Home</h1>
       <p>O seu blog de programação</p>
     </div>
 
@@ -16,3 +16,8 @@
     
 </body>
 </html>
+
+<?php 
+    include_once('templates/footer.php');
+
+?>
